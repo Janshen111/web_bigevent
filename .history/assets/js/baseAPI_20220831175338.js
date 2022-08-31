@@ -31,6 +31,6 @@ $.ajaxPrefilter(function(options) {
             location.href = '/login.html'
         }
     }
-
+}
 
 })

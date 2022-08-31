@@ -1,0 +1,39 @@
+.layui-footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+.iconfont {
+    margin-right: 8px;
+}
+
+.layui-icon {
+    margin-right: 8px;
+    margin-left: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 解决内部有滚动条及显示不齐全的问题 */
+
+.layui-body {
+    overflow: hidden;
+}
+
+
+/* 左侧导航栏的 强制清除 cs3 transition动画的 */
+
+a {
+    transition: none!important;
+}
+
+.userinfo {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 12px;
+}
